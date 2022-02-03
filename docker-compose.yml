@@ -1,0 +1,9 @@
+version: "3.6"
+
+services:
+  docker_image:
+    container_name: docker_img
+    build:
+      context: ./docker_image
+      dockerfile: dockerfile
+
